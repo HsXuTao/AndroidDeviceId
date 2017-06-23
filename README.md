@@ -24,7 +24,7 @@ allprojects {
 2：在你的工程里，加入
 ```java
 dependencies {
-    compile 'com.github.HsXuTao:AndroidDeviceId:V1.0.0'
+    compile 'com.github.HsXuTao:AndroidDeviceId:V1.0.1'
 }
 ```
 
