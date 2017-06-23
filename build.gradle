@@ -22,5 +22,5 @@ task clean(type: Delete) {
     delete rootProject.buildDir
 }
 
-ext.prodVersionCode = 1
-ext.prodVersionName = 'V1.0.0'
+ext.prodVersionCode = 2
+ext.prodVersionName = 'V1.0.1'
