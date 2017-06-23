@@ -1,4 +1,5 @@
 # AndroidDeviceId
+[![](https://jitpack.io/v/HsXuTao/AndroidDeviceId.svg)](https://jitpack.io/#HsXuTao/AndroidDeviceId)
 
 获取安卓设备的唯一识别码，方便标示唯一设备
 
