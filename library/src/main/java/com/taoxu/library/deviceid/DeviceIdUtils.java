@@ -18,12 +18,12 @@ import java.util.UUID;
 
 public class DeviceIdUtils {
     private static final String TAG = "DeviceIdUtils";
-    private static final String KEY_NAME = "android_unique_device_id";//任意，但不能和系统设置冲突
+    private static final String KEY_NAME = "android_device_id";//任意，但不能和系统设置冲突
 
     /**
      * 根据设备特征生成一个不变的设备id
      */
-    public static String getUniqueDeviceId(Context context) {
+    public static String getDeviceId(Context context) {
         String uniqueId = Settings.System.getString(context.getContentResolver(), KEY_NAME);
         if (!TextUtils.isEmpty(uniqueId)) {
             Log.i(TAG, "读取到唯一设备ID：" + uniqueId);

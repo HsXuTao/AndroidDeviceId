@@ -6,9 +6,9 @@ android {
     defaultConfig {
         applicationId "com.taoxu.androiddeviceid"
         minSdkVersion 9
-        targetSdkVersion 22
-        versionCode 1
-        versionName "1.0"
+        targetSdkVersion 24
+        versionCode rootProject.prodVersionCode
+        versionName rootProject.prodVersionName
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
